@@ -1,0 +1,290 @@
+body, html
+{
+    height: 100%;
+    margin: 0;
+    background: rgb(162, 204, 181);
+    position:relative;
+}
+.bg
+{
+    background-image: linear-gradient(to left, rgb(15, 121, 15), rgb(164, 238, 164));
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.container
+{
+    margin: 18px;
+    padding: 18px;
+    background-color: white;
+    position:absolute;
+    top: 20px;
+    left: 650px;
+    width: 500px;
+    height: 470px;
+    
+}
+#first
+{
+    width: 210px;
+    height: 10px;
+    border-radius: 5px;
+    background:white;
+    padding: 10px;
+    font: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1opx;
+    margin-top: 18px;
+    border: 1px solid gray;
+}
+#email
+{
+    width: 450px;
+    height: 10px;
+    border-radius: 5px;
+    background:white;
+    padding: 10px;
+    font: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 18px;
+    border: 1px solid gray;
+}
+#password
+{
+    width: 450px;
+    height: 10px;
+    border-radius: 5px;
+    background:white;
+    padding: 10px;
+    font: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 18px;
+    border: 1px solid gray;
+}
+.addBtn
+{
+    width: 450px;
+    height: 40px;
+    margin: 18px;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px, solid, gray;
+    background-color:rgb(162, 204, 181); ;
+}
+#intro
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: rgb(161, 160, 160);
+}
+#r-b
+{
+    font-size: 12px;
+    height: 15px;
+    width: 15px;
+}
+h3{
+    font-size: 15px;
+    color: gray;
+
+}
+#Intro
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: black;
+    height: 90px;
+    width: 550px;
+    margin: 16px;
+}
+#img1
+{
+    display: block;
+    margin-left: 15%;
+    margin-right: auto;
+    position: absolute;
+}
+p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: rgb(161, 160, 160);
+}
+.log
+{
+    margin: 18px;
+    padding: 18px;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 350px;
+    height: 430px;
+}
+#Email
+{
+    width: 320px;
+    height: 10px;
+    border-radius: 5px;
+    background:white;
+    padding: 10px;
+    font: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 18px;
+    border: 1px solid gray;   
+}
+#Password
+{
+    width: 320px;
+    height: 10px;
+    border-radius: 5px;
+    background:white;
+    padding: 10px;
+    font: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 18px;
+    border: 1px solid gray;   
+
+}
+.Btn 
+{
+    width: 290px;
+    height: 40px;
+    margin: 18px;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px, solid, gray;
+    background-color:rgb(162, 204, 181);
+}
+#img2
+{
+    display: block;
+    margin-left: 37%;
+    margin-right: auto;
+    margin-top: 8%;
+    position: relative;
+}
+#img3
+{
+    display: block;
+    margin-left: 1%;
+    position: absolute;
+    top: 4px;
+}
+h2
+{
+    margin-left: 35%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.colour-bg
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: rgb(156, 240, 194);
+}
+
+.colour-bg a
+{
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    font-size: 17px;
+    text-decoration: none;
+
+}
+.colour-bg a:hover
+{
+    color: rgb(28, 187, 152);
+}
+.intro1
+{
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 100px;
+    left: 650px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#second
+{
+    width: 210px;
+    height: 10px;
+    border-radius: 15px;
+    background:white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 50%;
+    border: 1px solid gray;
+    
+}
+button
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: rgb(162, 204, 181);
+}
+footer
+{
+    padding: 5px;
+    margin: 2px;
+}
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  .btn
+  {
+      padding: 1%;
+      margin: 1%;
+      border: none;
+      background-color: white;
+      text-align: left;
+      color:  rgb(25, 56, 112);
+  }
+  .modal
+  {
+      display: none;
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4);
+      z-index: 1;
+  }
+  
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  

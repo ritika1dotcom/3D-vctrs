@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta lang="en">
+    <meta name = "viewport" content="width=device-width, initial-scale=1">
+    <title>3D Vctrs</title>
+    <link rel = "stylesheet" href = "css.css">
+    <script src = "script.js" defer></script>
+</head>
+<body>
+    <form name="myForm" action="/action_page.php" method="post">
+    <div class = "container">
+        <input type = "text" id = "first" name = "Name" placeholder="First Name...">
+        <input type = "text" id = "first" name = "Last" placeholder="Last Name...">
+        <br>
+        <br>
+        <input type = "email" name = "email" id = "email" placeholder="Email...">
+        <br>
+        <br>
+        <input type = "password" name = "password" id = "password" placeholder="Password...">
+        <br>
+        <br>
+        <h3>Gender</h3>
+        <input type="radio" id="r-b" name="sex" value="male" />Male
+	 <input type="radio" id="r-b" name="sex" value="female" />Female<br><br>
+      
+     <button type ="button" onclick = "validateForm()" class = "addBtn">Create Account </button>
+     <p>Already have an account?<button onclick = "document.getElementById('id01').style.display = 'block'" style="width:auto;" class = "btn">Login</button></p>
+        <p id = "intro">By Clicking Create Account you agree to our Terms and have  read our Data Policy including Cookie Use. </p>
+    </div>
+    </form>
+    
+    <div id = "Intro" class = "S-body">Find 3D Vectors,MockUps,Ilustrations and Objects.</div>
+    <div id = "img1" class = "S-body"><img src = "images.png" alt = "vector"
+        width = "500px"
+        height = "460px">
+    </div> 
+    <div id = "id01" class = "modal">
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class = "log">
+                <span onclick="document.getElementById('id01').style.display='none'"
+                 class="close" title="Close Modal">&times;</span>
+        
+                <div id = "img2"><img src = "female.jpg" alt = "sign"
+                    width="90px"
+                    height="90px">
+                </div>
+                    <h2>User-Name</h2>
+                    <br>
+                <input type="email" id = "Email" placeholder="E-mail...">
+                <br>
+                <br>
+                <input type="password" id = "Password" placeholder="Password...">
+                <br>
+                <br>
+                <label>
+                    <input type="checkbox" name="remember"> Remember me
+                </label>
+                <br>
+               
+                <button type="button" onclick = "validate()" class = "Btn">Log-In</button>
+               
+            </div>
+        </form>
+    </div>
+</body>
+</html>
